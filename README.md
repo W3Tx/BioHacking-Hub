@@ -149,14 +149,24 @@ DailyPerformanceDashboard/
 ## Screenshots & Mockups
 > Diese Sektion zeigt Beispielansichten
 
-#### Dashboard Übersicht / Adobe XD Design Mockup & Layout 
-![Dashboard](https://github.com/W3Tx/BioHacking-Hub/blob/main/DailyPerformanceDashboard/Assets/images/screenshots/Dashboard_XD.png)
+#### Beispiel / Dashboard Übersicht / Adobe XD Design Mockup & Layout 
+![Dashboard-Mockup](https://github.com/W3Tx/BioHacking-Hub/blob/main/DailyPerformanceDashboard/Assets/images/screenshots/Dashboard_XD.png)
 
-#### Dashboard aktuelles Design
+#### Desktop / Dashboard aktuell
 ![Dashboard](https://github.com/W3Tx/BioHacking-Hub/blob/main/DailyPerformanceDashboard/Assets/images/screenshots/Dashboard.png)
 
-#### Tagesdaten-Eingabe
+#### Desktop / Tagesdaten aktuell
 ![Tagesdaten](https://github.com/W3Tx/BioHacking-Hub/blob/main/DailyPerformanceDashboard/Assets/images/screenshots/Tagesdaten.png)
+
+---
+
+#### Mobile / Dashboard aktuell
+![Dashboard-Mobile](Mobile_Ansicht_Dashboard_1.png)
+
+![Dashboard-Mobile](Mobile_Ansicht_Dashboard_2.png)
+
+#### Mobile / Tagesdaten aktuell
+![Tagesdaten-Mobile](Mobile_Ansicht_Daten.png)
 
 ---
 
