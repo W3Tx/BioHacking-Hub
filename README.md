@@ -97,8 +97,7 @@ https://localhost:5001
 
 ---
 
-## Projektstruktur
-
+```
 DailyPerformanceDashboard/
 │
 ├── wwwroot/
@@ -143,6 +142,7 @@ DailyPerformanceDashboard/
 ├── package.json
 ├── performance.db
 └── Program.cs
+```
 
 ---
 
