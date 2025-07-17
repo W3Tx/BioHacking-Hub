@@ -1,25 +1,25 @@
-# 🧠 BiohackingHub
+# BiohackingHub
 
 **BiohackingHub** ist ein persönliches Dashboard zur digitalen Selbstverbesserung.  
 Entwickelt im Rahmen einer Ausbildung zum Fachinformatiker für Anwendungsentwicklung, unterstützt es den Nutzer dabei, tägliche Routinen wie Aufgaben, Training, Wasseraufnahme und Reflektion zu verfolgen – strukturiert, motivierend und optisch modern.
 
 ---
 
-## 🎯 Projektziel
+## Projektziel
 
 Dieses Projekt entstand aus dem Wunsch, alltägliche Gewohnheiten sichtbar zu machen und Achtsamkeit sowie Produktivität zu kombinieren.  
 Es wurde im Rahmen einer schulischen Ausbildung als Demonstration moderner Webentwicklung mit .NET Core und C# realisiert.
 
 ---
 
-## 👨‍🎓 Über den Entwickler
+## Über den Entwickler
 
 Ich bin Auszubildender im Bereich Anwendungsentwicklung mit Fokus auf .NET-Technologien.
 **BiohackingHub** wurde als praktisches Schul Projekt konzipiert.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Dashboard**
   - Übersicht von Tageszielen
@@ -38,7 +38,7 @@ Ich bin Auszubildender im Bereich Anwendungsentwicklung mit Fokus auf .NET-Techn
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technologie           | Beschreibung                                 |
 |-----------------------|----------------------------------------------|
@@ -51,26 +51,26 @@ Ich bin Auszubildender im Bereich Anwendungsentwicklung mit Fokus auf .NET-Techn
 
 ---
 
-## ⚙️ Setup-Anleitung
+## Setup-Anleitung
 
-### 🔧 Voraussetzungen
+### Voraussetzungen
 - .NET SDK 6.0 oder höher
 - Visual Studio 2022 oder höher (mit ASP.NET & Webentwicklung)
 - EF Core CLI (`dotnet-ef`)
 
-### 📥 Projekt klonen
+### Projekt klonen
 ```bash
 git clone https://github.com/dein-benutzername/biohackinghub.git
 cd biohackinghub
 ````
 
-### 💾 Datenbank erstellen
+### Datenbank erstellen
 
 ```bash
 dotnet ef database update
 ```
 
-### ▶️ Anwendung starten
+### Anwendung starten
 
 ```bash
 dotnet run
@@ -84,7 +84,7 @@ https://localhost:5001
 
 ---
 
-## 🧩 Datenmodell (Auszug)
+## Datenmodell (Auszug)
 
 | Modell             | Beschreibung                                        |
 | ------------------ | --------------------------------------------------- |
@@ -97,7 +97,7 @@ https://localhost:5001
 
 ---
 
-## 📁 Projektstruktur
+## Projektstruktur
 
 DailyPerformanceDashboard/
 │
@@ -160,7 +160,7 @@ DailyPerformanceDashboard/
 
 ---
 
-## 🗺 Roadmap / ToDos
+## Roadmap / ToDos
 
 * [ ] Aufgabenstatus mit Checkbox ändern
 * [ ] Statistik-Ansicht mit Diagrammen für Wasser, Training & Streaks
