@@ -74,7 +74,7 @@ cd biohackinghub
 > Diese Sektion zeigt Beispielansichten
 
 #### Dashboard Übersicht
-![Dashboard](assets/images/screenshots/Dashboard_XD.png)
+![Dashboard](Assets/images/screenshots/Dashboard_XD.png)
 
 #### Tagesdaten-Eingabe
 
