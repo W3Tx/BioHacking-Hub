@@ -73,10 +73,14 @@ cd biohackinghub
 ## Screenshots & Mockups
 > Diese Sektion zeigt Beispielansichten
 
-#### Dashboard Übersicht
-![Dashboard](Assets/images/screenshots/Dashboard_XD.png)
+#### Dashboard Übersicht / Adobe XD Design Mockup & Layout 
+![Dashboard](https://github.com/W3Tx/BioHacking-Hub/blob/main/DailyPerformanceDashboard/Assets/images/screenshots/Dashboard_XD.png)
+
+#### Dashboard aktuelles Design
+![Dashboard](https://github.com/W3Tx/BioHacking-Hub/blob/main/DailyPerformanceDashboard/Assets/images/screenshots/Dashboard.png)
 
 #### Tagesdaten-Eingabe
+![Tagesdaten](https://github.com/W3Tx/BioHacking-Hub/blob/main/DailyPerformanceDashboard/Assets/images/screenshots/Tagesdaten.png)
 
 ---
 
