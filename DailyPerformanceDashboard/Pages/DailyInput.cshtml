@@ -1,0 +1,85 @@
+﻿@page
+@model DailyPerformanceDashboard.Pages.DailyInputModel
+@{
+    ViewData["Title"] = "Tagesdaten eingeben";
+}
+
+<div class="main-content">
+    <div class="content-wrapper text-center">
+        <h1 class="fw-bold mb-2">Tagesdaten eintragen</h1>
+        <p class="text-muted mb-4">@DateTime.Today.ToString("dddd, MMMM d, yyyy")</p>
+
+        <div class="card-grid card-grid-2x2">
+            <!-- Aufgabe hinzufügen -->
+            <div class="card endcard">
+                <h5>Aufgabe hinzufügen</h5>
+                <form method="post" asp-page-handler="AddTask">
+                    <div class="mb-3">
+                        <label asp-for="NewTask.Title" class="form-label">Titel</label>
+                        <input asp-for="NewTask.Title" class="form-control" placeholder="z. B. Fokusarbeit, Lesen..." />
+                        <span asp-validation-for="NewTask.Title" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn">Hinzufügen</button>
+                </form>
+            </div>
+
+            <!-- Training hinzufügen -->
+            <div class="card endcard">
+                <h5>Training hinzufügen</h5>
+                <form method="post" asp-page-handler="AddTraining">
+                    <div class="mb-3">
+                        <label asp-for="NewTraining.Name" class="form-label">Name</label>
+                        <input asp-for="NewTraining.Name" class="form-control" placeholder="z. B. Brust/Trizeps" />
+                        <span asp-validation-for="NewTraining.Name" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="NewTraining.Exercises" class="form-label">Übungen</label>
+                        <textarea asp-for="NewTraining.Exercises" class="form-control" rows="3" placeholder="z. B. Bankdrücken, Dips..."></textarea>
+                        <span asp-validation-for="NewTraining.Exercises" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn">Hinzufügen</button>
+                </form>
+            </div>
+
+            <!-- Supplement eintragen -->
+            <div class="card endcard">
+                <h5>Supplement eintragen</h5>
+                <form method="post" asp-page-handler="AddSupplement">
+                    <div class="mb-3">
+                        <label asp-for="NewSupplement.Name" class="form-label">Name</label>
+                        <input asp-for="NewSupplement.Name" class="form-control" placeholder="z. B. Magnesium" />
+                        <span asp-validation-for="NewSupplement.Name" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="NewSupplement.TimeOfDay" class="form-label">Tageszeit</label>
+                        <input asp-for="NewSupplement.TimeOfDay" class="form-control" placeholder="z. B. Morgens / Abends" />
+                        <span asp-validation-for="NewSupplement.TimeOfDay" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn">Eintragen</button>
+                </form>
+            </div>
+
+            <!-- Reflektion schreiben -->
+            <div class="card endcard">
+                <h5>Reflektion schreiben</h5>
+                <form method="post" asp-page-handler="AddReflection">
+                    <div class="mb-3">
+                        <label asp-for="NewReflection.Content" class="form-label">Text</label>
+                        <textarea asp-for="NewReflection.Content" class="form-control" rows="4" placeholder="Was ist heute gut gelaufen? Was nicht?"></textarea>
+                        <span asp-validation-for="NewReflection.Content" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn">Speichern</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Zurück Button -->
+        <div class="card card-full mt-4">
+            <a href="/Dashboard" class="btn">Zurück zum Dashboard</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
