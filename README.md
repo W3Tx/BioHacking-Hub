@@ -161,12 +161,12 @@ DailyPerformanceDashboard/
 ---
 
 #### Mobile / Dashboard aktuell
-![Dashboard-Mobile](Mobile_Ansicht_Dashboard_1.png)
+![Dashboard-Mobile](https://github.com/W3Tx/BioHacking-Hub/blob/main/DailyPerformanceDashboard/Assets/images/screenshots/Mobile_Ansicht_Dashboard_1.png)
 
-![Dashboard-Mobile](Mobile_Ansicht_Dashboard_2.png)
+![Dashboard-Mobile](https://github.com/W3Tx/BioHacking-Hub/blob/main/DailyPerformanceDashboard/Assets/images/screenshots/Mobile_Ansicht_Dashboard_2.png)
 
 #### Mobile / Tagesdaten aktuell
-![Tagesdaten-Mobile](Mobile_Ansicht_Daten.png)
+![Tagesdaten-Mobile](https://github.com/W3Tx/BioHacking-Hub/blob/main/DailyPerformanceDashboard/Assets/images/screenshots/Mobile_Ansicht_Daten.png)
 
 ---
 
