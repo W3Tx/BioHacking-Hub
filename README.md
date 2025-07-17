@@ -73,8 +73,10 @@ cd biohackinghub
 ## Screenshots & Mockups
 > Diese Sektion zeigt Beispielansichten
 
-* Dashboard Übersicht
-* Tagesdaten-Eingabe
+#### Dashboard Übersicht
+![Dashboard](assets/images/screenshots/Dashboard_XD.png)
+
+#### Tagesdaten-Eingabe
 
 ---
 
