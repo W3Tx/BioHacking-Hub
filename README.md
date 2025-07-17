@@ -1,72 +1,148 @@
-# BiohackingHub
+# 🧠 BiohackingHub
 
-**BiohackingHub** ist ein personalisiertes Dashboard für tägliche Leistungs- und Gesundheitsverfolgung. Es kombiniert moderne Webtechnologien mit achtsamkeitsorientierten Features, um deinen Alltag messbar besser zu gestalten.
-
----
-
-## Features
-
-- **Dashboard-Ansicht**
-  - Übersicht von Tageszielen, Aufgaben, Trainings und Supplements
-  - Tägliches Wissens-Snippet für Mindset & Lernen
-  - Reflektionsbereich für Selbstbeobachtung
-
-- **Eingabe-Maske**
-  - Aufgaben, Trainings, Supplemente und Reflektion bequem eintragen
-  - Wasseraufnahme mit +1-Button dokumentieren
-
-- **Streaks & Historie**
-  - Berechnung deiner „Day Streak“
-  - Anzeige vergangener Erfolge
+**BiohackingHub** ist ein persönliches Dashboard zur digitalen Selbstverbesserung.  
+Entwickelt im Rahmen einer Ausbildung zum Fachinformatiker für Anwendungsentwicklung, unterstützt es den Nutzer dabei, tägliche Routinen wie Aufgaben, Training, Wasseraufnahme und Reflektion zu verfolgen – strukturiert, motivierend und optisch modern.
 
 ---
 
-## Tech Stack
+## 🎯 Projektziel
 
-| Technologie       | Beschreibung                           |
-|------------------|----------------------------------------|
-| **ASP.NET Core** | Backend-Logik mit Razor Pages          |
-| **Entity Framework Core** | Datenbankzugriff (SQLite/MSSQL)     |
-| **Bootstrap 5**  | UI-Komponenten & Responsive Design     |
-| **C# 10**        | Programmiersprache                     |
-| **EF Code First**| Datenmodellierung                     |
+Dieses Projekt entstand aus dem Wunsch, alltägliche Gewohnheiten sichtbar zu machen und Achtsamkeit sowie Produktivität zu kombinieren.  
+Es wurde im Rahmen einer schulischen Ausbildung als Demonstration moderner Webentwicklung mit .NET Core und C# realisiert.
 
 ---
 
-## Setup-Anleitung
+## 👨‍🎓 Über den Entwickler
 
-### Klonen
+Ich bin Auszubildender im Bereich Anwendungsentwicklung mit Fokus auf .NET-Technologien.
+**BiohackingHub** wurde als praktisches Schul Projekt konzipiert.
+
+---
+
+## 🚀 Features
+
+- **Dashboard**
+  - Übersicht von Tageszielen
+  - Aufgabenfortschritt & Streak-Anzeige
+  - Anzeige eines zufälligen „Wissens-Snippets“
+  - Letzter Reflektionseintrag
+
+- **Tagesdaten erfassen**
+  - Aufgaben, Training, Supplemente & Wasseraufnahme
+  - Persönliche Reflektion schreiben
+
+- **Datenbasiertes Feedback**
+  - Trainingshistorie (TrainingDays)
+  - Wasserverbrauch (pro Tag)
+  - Automatische Streak-Berechnung für Journaling
+
+---
+
+## 🛠️ Tech Stack
+
+| Technologie           | Beschreibung                                 |
+|-----------------------|----------------------------------------------|
+| **ASP.NET Core**      | Razor Pages Framework                        |
+| **Entity Framework**  | ORM für Datenbankzugriff (Code First)        |
+| **C# 10**             | Backend-Programmiersprache                   |
+| **SQLite**            | Datenbank für lokale Persistenz              |
+| **Bootstrap 5**       | Responsives UI & moderne Komponenten         |
+| **Visual Studio**     | Hauptentwicklungsumgebung                    |
+
+---
+
+## ⚙️ Setup-Anleitung
+
+### 🔧 Voraussetzungen
+- .NET SDK 6.0 oder höher
+- Visual Studio 2022 oder höher (mit ASP.NET & Webentwicklung)
+- EF Core CLI (`dotnet-ef`)
+
+### 📥 Projekt klonen
 ```bash
 git clone https://github.com/dein-benutzername/biohackinghub.git
 cd biohackinghub
 ````
 
-### Starten
+### 💾 Datenbank erstellen
 
-1. Datenbank anlegen:
+```bash
+dotnet ef database update
+```
 
-   ```bash
-   dotnet ef database update
-   ```
+### ▶️ Anwendung starten
 
-2. Projekt starten:
+```bash
+dotnet run
+```
 
-   ```bash
-   dotnet run
-   ```
+Anschließend im Browser öffnen unter:
 
-3. Öffne `https://localhost:5001` oder `http://localhost:5000`
+```
+https://localhost:5001
+```
 
 ---
 
-## Datenmodell (Auszug)
+## 🧩 Datenmodell (Auszug)
 
-* `TaskItem` – Tägliche Aufgaben
-* `TrainingBlock` – Dokumentierte Workouts
-* `SupplementIntake` – Eingenommene Nahrungsergänzungsmittel
-* `JournalEntry` – Reflektionseintrag
-* `WaterIntake` – Getrunkene Gläser Wasser
-* `KnowledgeSnippet` – Zufällig angezeigte Wissenshäppchen
+| Modell             | Beschreibung                                        |
+| ------------------ | --------------------------------------------------- |
+| `TaskItem`         | Tagesaufgaben mit „Erledigt“-Status                 |
+| `TrainingBlock`    | Trainingsblöcke mit Beschreibung                    |
+| `SupplementIntake` | Supplementeinnahme (Name & Tageszeit)               |
+| `WaterIntake`      | Anzahl der Gläser Wasser pro Tag                    |
+| `JournalEntry`     | Freitextreflektionen mit Tagesstempel               |
+| `KnowledgeSnippet` | Kleine Tages-Impulse zur Motivation & Produktivität |
+
+---
+
+## 📁 Projektstruktur
+
+DailyPerformanceDashboard/
+│
+├── wwwroot/
+│   ├── css/
+│   │   └── site.css
+│   ├── js/
+│   └── lib/
+│       └── favicon.ico
+│
+├── Assets/
+│   └── images/
+│       └── screenshots/
+│           ├── Dashboard.png
+│           ├── Dashboard_XD.png
+│           └── Tagesdaten.png
+│
+├── Migrations/
+│
+├── Models/
+│   ├── AppDbContext.cs
+│   ├── JournalEntry.cs
+│   ├── KnowledgeSnippet.cs
+│   ├── SupplementIntake.cs
+│   ├── TaskItem.cs
+│   ├── TrainingBlock.cs
+│   └── WaterIntake.cs
+│
+├── Pages/
+│   ├── Shared/
+│   │   ├── _Layout.cshtml
+│   │   ├── _ValidationScriptsPartial.cshtml
+│   ├── DailyInput.cshtml
+│   ├── DailyInput.cshtml.cs
+│   ├── Dashboard.cshtml
+│   ├── Dashboard.cshtml.cs
+│   ├── Index.cshtml
+│   ├── _ViewImports.cshtml
+│   └── _ViewStart.cshtml
+│
+├── appsettings.json
+├── launchSettings.json
+├── package.json
+├── performance.db
+└── Program.cs
 
 ---
 
@@ -84,11 +160,12 @@ cd biohackinghub
 
 ---
 
-## Roadmap / ToDos
+## 🗺 Roadmap / ToDos
 
-* [ ] Aufgabenstatus änderbar machen (✔/✗)
-* [ ] Diagramme für Wasser & Trainingsverlauf
-* [ ] User-System für Mehrbenutzermodus
+* [ ] Aufgabenstatus mit Checkbox ändern
+* [ ] Statistik-Ansicht mit Diagrammen für Wasser, Training & Streaks
+* [ ] Benutzerkonten (Login & persönliche Daten)
 * [ ] Dark Mode
+* [ ] Mobile UX verbessern
 
-```
+---
