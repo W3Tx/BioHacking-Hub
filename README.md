@@ -44,7 +44,7 @@ Ich bin Auszubildender im Bereich Anwendungsentwicklung mit Fokus auf .NET-Techn
 |-----------------------|----------------------------------------------|
 | **ASP.NET Core**      | Razor Pages Framework                        |
 | **Entity Framework**  | ORM für Datenbankzugriff (Code First)        |
-| **C# 10**             | Backend-Programmiersprache                   |
+| **C# 9**              | Backend-Programmiersprache                   |
 | **SQLite**            | Datenbank für lokale Persistenz              |
 | **Bootstrap 5**       | Responsives UI & moderne Komponenten         |
 | **Visual Studio**     | Hauptentwicklungsumgebung                    |
