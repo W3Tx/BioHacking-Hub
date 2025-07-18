@@ -38,7 +38,7 @@ Ich bin Auszubildender im Bereich Anwendungsentwicklung mit Fokus auf .NET-Techn
 
 ---
 
-## 📄 Projektdokumentation
+## Projektdokumentation
 
 Die vollständige Dokumentation (PDF) inklusive Installation, Screenshots, Tests und Quellcodebeschreibung befindet sich unter:
 
