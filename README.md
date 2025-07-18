@@ -42,7 +42,7 @@ Ich bin Auszubildender im Bereich Anwendungsentwicklung mit Fokus auf .NET-Techn
 
 Die vollständige Dokumentation (PDF) inklusive Installation, Screenshots, Tests und Quellcodebeschreibung befindet sich unter:
 
-[docs/Projektdokumentation.pdf](https://drive.google.com/file/d/1UyD0R1aPebNY6nk2OmH0ZCvshmMQpOlx/view?usp=drive_link)
+[Projektdokumentation](https://drive.google.com/file/d/1UyD0R1aPebNY6nk2OmH0ZCvshmMQpOlx/view?usp=drive_link)
 
 ---
 
