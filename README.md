@@ -60,7 +60,7 @@ Ich bin Auszubildender im Bereich Anwendungsentwicklung mit Fokus auf .NET-Techn
 
 ### Projekt klonen
 ```bash
-git clone https://github.com/dein-benutzername/biohackinghub.git
+git clone https://github.com/W3Tx/biohackinghub.git
 cd biohackinghub
 ````
 
